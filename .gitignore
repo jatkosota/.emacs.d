@@ -1,0 +1,9 @@
+# Mac
+.DS_Store
+
+# temp
+eshell/
+auto-save-list/
+
+# packages
+el-get/
