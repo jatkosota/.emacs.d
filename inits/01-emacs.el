@@ -38,9 +38,9 @@
 
 ;; yes/no ではなく y/n
 (defalias 'yes-or-no-p 'y-or-n-p)
-
-;; ビープ音を消す
-(setq visible-bell t)
+ 
+;; ビープ音, フラッシュを消す
+(setq ring-bell-function 'ignore)
 
 ;; C-h で一文字前を消す
 (define-key key-translation-map (kbd "C-h") (kbd "<DEL>"))
