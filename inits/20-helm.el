@@ -1,0 +1,10 @@
+(use-package helm-config
+  :bind (("M-x" . helm-M-x)
+	 ("C-x C-f" . helm-find-files)
+	 ("C-x b" . helm-buffers-list)
+	 ("C-:" . helm-mini)
+	 ("C-c C-o" . helm-occur)
+	 ("C-c C-y" . helm-show-kill-ring)
+	 ("C-c C-r" . helm-recentf)
+	 ("C-c s s" . helm-swoop)
+	 ("C-c s a" . helm-multi-swoop-all)))
