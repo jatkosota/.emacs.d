@@ -7,6 +7,7 @@
 ;; helm
 (el-get-bundle helm)
 (el-get-bundle helm-swoop)
+(el-get-bundle helm-ls-git)
 
 ;; Git
 (el-get-bundle magit)
