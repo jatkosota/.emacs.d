@@ -42,9 +42,6 @@
 ;; ビープ音, フラッシュを消す
 (setq ring-bell-function 'ignore)
 
-;; C-h で一文字前を消す
-(define-key key-translation-map (kbd "C-h") (kbd "<DEL>"))
-
 ;; フォントを設定
 (set-face-attribute 'default nil :family "Source Han Code JP")
 
