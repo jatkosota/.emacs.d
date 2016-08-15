@@ -6,5 +6,5 @@
 	 ("C-c C-o" . helm-occur)
 	 ("C-c C-y" . helm-show-kill-ring)
 	 ("C-c C-r" . helm-recentf)
-	 ("C-c s s" . helm-swoop)
-	 ("C-c s a" . helm-multi-swoop-all)))
+	 ("C-c C-s s" . helm-swoop)
+	 ("C-c C-s a" . helm-multi-swoop-all)))
