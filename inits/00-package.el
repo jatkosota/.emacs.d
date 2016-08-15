@@ -12,3 +12,6 @@
 (el-get-bundle magit)
 
 (el-get-bundle which-key)
+
+(el-get-bundle knu/elscreen)
+(el-get-bundle elscreen-persist)
