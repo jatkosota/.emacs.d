@@ -10,7 +10,8 @@
 	 ("C-c C-y" . helm-show-kill-ring)
 	 ("C-c C-r" . helm-recentf)
 	 ("C-c C-s s" . helm-swoop)
-	 ("C-c C-s a" . helm-multi-swoop-all))
+	 ("C-c C-s a" . helm-multi-swoop-all)
+	 ("C-c C-c t" . helm-elscreen))
   :config
   (setq helm-delete-minibuffer-contents-from-point t)
   (use-package helm-ls-git)
