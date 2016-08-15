@@ -5,6 +5,7 @@
 eshell/
 auto-save-list/
 recentf
+elscreen
 
 # packages
 el-get/

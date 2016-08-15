@@ -13,4 +13,5 @@
 
 (el-get-bundle which-key)
 
-(el-get-bundle elscreen)
+(el-get-bundle knu/elscreen)
+(el-get-bundle elscreen-persist)
