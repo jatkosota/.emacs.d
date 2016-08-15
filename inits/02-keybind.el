@@ -44,6 +44,9 @@
 ;; quoted-insert は C-q C-q へ割り当て
 (global-set-key "\C-q\C-q" 'quoted-insert)
 
+;; window-resizer は C-q C-r (resize) で
+(global-set-key "\C-qr" 'my-window-resizer)
+
 ;; ウィンドウ間のカーソル移動
 (global-set-key (kbd "\C-qh") 'windmove-left)
 (global-set-key (kbd "\C-qj") 'windmove-down)
