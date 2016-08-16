@@ -21,3 +21,5 @@
 (el-get-bundle anzu)
 
 (el-get-bundle powerline)
+
+(el-get-bundle key-chord)
