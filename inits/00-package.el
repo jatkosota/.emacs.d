@@ -25,6 +25,8 @@
 (el-get-bundle key-chord)
 
 (el-get-bundle auto-complete)
+(el-get-bundle fuzzy)
+
 
 ;; undo
 (el-get-bundle undohist)
