@@ -18,3 +18,4 @@
 (el-get-bundle knu/elscreen)
 (el-get-bundle elscreen-persist)
 
+(el-get-bundle anzu)
