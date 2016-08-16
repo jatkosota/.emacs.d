@@ -27,9 +27,10 @@
 (el-get-bundle auto-complete)
 (el-get-bundle fuzzy)
 
-
 ;; undo
 (el-get-bundle undohist)
 (el-get-bundle undo-tree)
 (el-get-bundle redo+)
 (el-get-bundle point-undo)
+
+(el-get-bundle recentf-ext)
