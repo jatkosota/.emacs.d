@@ -29,3 +29,4 @@
 ;; undo
 (el-get-bundle undohist)
 (el-get-bundle undo-tree)
+(el-get-bundle redo+)
