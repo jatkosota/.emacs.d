@@ -25,3 +25,4 @@
 (el-get-bundle key-chord)
 
 (el-get-bundle auto-complete)
+(el-get-bundle fuzzy)
