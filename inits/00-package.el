@@ -8,6 +8,7 @@
 (el-get-bundle helm)
 (el-get-bundle helm-swoop)
 (el-get-bundle helm-ls-git)
+(el-get-bundle helm-ag)
 
 ;; Git
 (el-get-bundle magit)
@@ -16,3 +17,4 @@
 
 (el-get-bundle knu/elscreen)
 (el-get-bundle elscreen-persist)
+
