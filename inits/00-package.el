@@ -23,3 +23,5 @@
 (el-get-bundle powerline)
 
 (el-get-bundle key-chord)
+
+(el-get-bundle auto-complete)

@@ -8,6 +8,7 @@ backups/
 url/
 recentf
 elscreen
+ac-comphist.dat
 
 # packages
 el-get/
