@@ -10,3 +10,7 @@
   :bind (("C-M-/" . redo))
   :config
   (setq undo-no-redo t))
+
+(use-package point-undo
+  :bind (("M-[" . point-undo)
+	 ("M-]" . point-redo)))
