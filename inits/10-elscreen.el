@@ -14,5 +14,3 @@
   (copy-face 'mode-line-inactive 'elscreen-tab-other-screen-face))
 
 (use-package elscreen-server)
-
-(use-package elscreen-dired)
