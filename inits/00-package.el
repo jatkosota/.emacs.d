@@ -36,3 +36,7 @@
 (el-get-bundle recentf-ext)
 
 (el-get-bundle flycheck/flycheck)
+
+;; scala
+(el-get-bundle scala-mode)
+(el-get-bundle ensime)
