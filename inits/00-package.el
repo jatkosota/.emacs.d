@@ -19,3 +19,5 @@
 (el-get-bundle elscreen-persist)
 
 (el-get-bundle anzu)
+
+(el-get-bundle powerline)
