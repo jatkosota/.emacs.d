@@ -34,3 +34,5 @@
 (el-get-bundle point-undo)
 
 (el-get-bundle recentf-ext)
+
+(el-get-bundle flycheck/flycheck)
