@@ -1,6 +1,10 @@
 (use-package helm-ls-git
   :bind (("C-c C-g" . helm-ls-git-ls)))
 
+(use-package helm-projectile
+  :init
+  (helm-projectile-on))
+
 (use-package helm-config
   :bind (("M-x" . helm-M-x)
 	 ("C-x C-f" . helm-find-files)
@@ -19,5 +23,6 @@
   (setq helm-mini-default-sources '(helm-source-buffers-list
 				    helm-source-files-in-current-dir
 				    helm-source-ls-git
+				    helm-source-projectile-files-list
 				    helm-source-recentf)))
 
