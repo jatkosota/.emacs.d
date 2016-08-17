@@ -13,7 +13,8 @@
 	 ("C-c C-c s" . helm-swoop)
 	 ("C-c C-c a" . helm-multi-swoop-all)
 	 ("C-c C-c t" . helm-elscreen)
-	 ("C-c C-c g" . helm-ag))
+	 ("C-c C-c g" . helm-ag)
+	 ("C-c C-c p" . helm-multi-swoop-projectile))
   :config
   (setq helm-delete-minibuffer-contents-from-point t)
   (setq helm-mini-default-sources '(helm-source-buffers-list
