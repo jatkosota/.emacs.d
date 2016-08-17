@@ -40,3 +40,5 @@
 ;; scala
 (el-get-bundle scala-mode)
 (el-get-bundle ensime)
+
+(el-get-bundle projectile)
