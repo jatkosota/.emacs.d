@@ -1,16 +1,19 @@
 (use-package scala-mode
   :interpreter
-  ("scala" . scala-mode))
+  ("scala" . scala-mode)
+  :config
+  (add-hook 'scala-mode-hook (lambda ()
+			       (setq prettify-symbols-alist scala-prettify-symbols)
+			       (prettify-symbols-mode))))
 
 (use-package ensime
+  :defer t
   :config
   (setq ensime-startup-snapshort-notification nil)
   (setq ensime-completion-style 'auto-complete)
   (add-hook 'ensime-mode-hook #'scala/enable-eldoc)
   (add-hook 'scala-mode-hook (lambda ()
-			       (ensime-scala-mode-hook)
-			       (setq prettify-symbols-alist scala-prettify-symbols)
-			       (pretiffy-symbols-mode)))
+			       'ensime-scala-mode-hook)))
 
 ;; eldocにエラー情報や型情報を表示する
 (defun scala/enable-eldoc ()
@@ -66,7 +69,6 @@
 	("any" . ?∃)
 	("all" . ?∀)
 	("traverse" . ?↦)
-	("map" . ?∘)
 	("lambda" . ?λ)
 	("alpha" . ?α)
 	("beta" . ?β)
