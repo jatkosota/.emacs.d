@@ -1,5 +1,6 @@
-(use-package helm-ls-git
-  :bind (("C-c C-g" . helm-ls-git-ls)))
+(use-package helm-projectile
+  :init
+  (helm-projectile-on))
 
 (use-package helm-config
   :bind (("M-x" . helm-M-x)
@@ -12,12 +13,12 @@
 	 ("C-c C-c s" . helm-swoop)
 	 ("C-c C-c a" . helm-multi-swoop-all)
 	 ("C-c C-c t" . helm-elscreen)
-	 ("C-c C-c g" . helm-ag))
+	 ("C-c C-c g" . helm-ag)
+	 ("C-c C-c p" . helm-multi-swoop-projectile))
   :config
   (setq helm-delete-minibuffer-contents-from-point t)
-  (use-package helm-ls-git)
   (setq helm-mini-default-sources '(helm-source-buffers-list
 				    helm-source-files-in-current-dir
-				    helm-source-ls-git
+				    helm-source-projectile-files-list
 				    helm-source-recentf)))
 
