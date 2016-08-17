@@ -42,3 +42,6 @@
 (el-get-bundle ensime)
 
 (el-get-bundle projectile)
+
+;; haskell
+(el-get-bundle haskell-mode)
