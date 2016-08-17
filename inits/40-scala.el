@@ -4,9 +4,13 @@
 
 (use-package ensime
   :config
+  (setq ensime-startup-snapshort-notification nil)
   (setq ensime-completion-style 'auto-complete)
   (add-hook 'ensime-mode-hook #'scala/enable-eldoc)
-  (add-hook 'scala-mode-hook 'ensime-scala-mode-hook))
+  (add-hook 'scala-mode-hook (lambda ()
+			       (ensime-scala-mode-hook)
+			       (setq prettify-symbols-alist scala-prettify-symbols)
+			       (pretiffy-symbols-mode)))
 
 ;; eldocにエラー情報や型情報を表示する
 (defun scala/enable-eldoc ()
@@ -47,3 +51,23 @@
          (scala/completing-dot-company))
         ((eq ensime-completion-style 'auto-complete)
          (scala/completing-dot-ac))))
+
+;; prettify-symbols
+(setq scala-prettify-symbols
+      '(("=>" . ?⇒)
+	("<-" . ?←)
+	("->" . ?→)
+	("undefined" . ?⊥)
+	("&&" . ?∧)
+	("||" . ?∨)
+	("<<<" . ?⋘)
+	(">>>" . ?⋙)
+	("++" . ?⧺)
+	("any" . ?∃)
+	("all" . ?∀)
+	("traverse" . ?↦)
+	("map" . ?∘)
+	("lambda" . ?λ)
+	("alpha" . ?α)
+	("beta" . ?β)
+	("Unit" . ?∅)))
