@@ -47,3 +47,7 @@
 
 ;; C-k で行全体を削除
 (setq kill-whole-line t)
+
+(if window-system 
+    (progn
+      (set-frame-parameter nil 'alpha 80)))
