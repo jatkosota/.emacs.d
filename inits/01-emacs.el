@@ -48,6 +48,9 @@
 ;; C-k で行全体を削除
 (setq kill-whole-line t)
 
-(if window-system 
-    (progn
-      (set-frame-parameter nil 'alpha 90)))
+;; (if window-system 
+;;     (progn
+;;       (set-frame-parameter nil 'alpha 90)))
+
+(add-to-list 'default-frame-alist '(alpha . (0.9 1.0)))
+
