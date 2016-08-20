@@ -2,7 +2,7 @@
 (el-get-bundle ddskk)
 
 ;; Theme
-(el-get-bundle color-theme-solarized)
+(el-get-bundle color-theme-twilight)
 
 ;; helm
 (el-get-bundle helm)
