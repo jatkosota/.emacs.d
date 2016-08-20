@@ -50,4 +50,4 @@
 
 (if window-system 
     (progn
-      (set-frame-parameter nil 'alpha 80)))
+      (set-frame-parameter nil 'alpha 90)))
