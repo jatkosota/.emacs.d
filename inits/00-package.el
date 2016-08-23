@@ -45,3 +45,6 @@
 
 ;; haskell
 (el-get-bundle haskell-mode)
+
+;; ocaml
+(el-get-bundle tuareg)
