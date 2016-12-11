@@ -49,3 +49,6 @@
 
 ;; ocaml
 (el-get-bundle tuareg)
+
+;; tex
+(el-get-bundle yatex)
