@@ -3,5 +3,5 @@
 	 ("\\.ltx$" . yatex-mode)
 	 ("\\.sty$" . yatex-mode))
   :config
-  (setq YaTex-kanji-code 4)
-  (setq YaTex-use-AMS-LaTeX nil))
+  (setq YaTeX-kanji-code 4)
+  (setq YaTeX-use-AMS-LaTeX nil))
