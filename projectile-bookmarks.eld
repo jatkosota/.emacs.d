@@ -1,0 +1,1 @@
+("~/Documents/programming/scala/ydteq_jas/" "~/Documents/programming/scala/equivalence/" "~/Documents/lab/" "~/.emacs.d/")

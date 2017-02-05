@@ -3,6 +3,9 @@
 
 ;; Theme
 (el-get-bundle color-theme-solarized)
+(el-get-bundle moe-theme)
+(el-get-bundle zenburn-theme)
+(el-get-bundle monokai-theme)
 
 ;; helm
 (el-get-bundle helm)
